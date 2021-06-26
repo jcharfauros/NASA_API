@@ -1,0 +1,29 @@
+/* FONTS */
+
+@font-face {
+    font-family: kiona-regular;
+    src: url(./assets/Kiona-Regular.ttf)
+}
+
+@font-face {
+    font-family: space-age;
+    src: url(./assets/space_age.ttf);
+}
+
+/* GENERAL SET UP */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #515763;
+}
+
+/* BODY */
+
+.main {
+    height: 100vh;
+    width: 100vw;
+}
