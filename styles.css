@@ -18,7 +18,8 @@ html, body {
 }
 
 body {
-    background-color: #515763;
+    background-color: #7f8487;
+    text-align: center;
 }
 
 /* BODY */
@@ -26,4 +27,33 @@ body {
 .main {
     height: 100vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #c6cacb;
+    border: none;
+    border-radius: 10px 100px / 120px;
+}
+
+.card-img-top {
+    border-radius: 10px 100px / 120px;
+}
+
+.modal-content {
+    border-radius: 60px / 50px 5px;
+}
+
+/* BUTTONS */
+
+.modal-footer .btn {
+    /* move btn position */
+    margin-right: 30px;
+    background-color: #3d434f;
+}
+
+.btn-dark {
+    background-color: #3d434f;
 }
